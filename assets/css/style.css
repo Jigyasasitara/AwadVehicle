@@ -485,6 +485,14 @@ button, a { transition: var(--transition); }
   transition: var(--transition);
   flex-grow: 1; /* Allow the input field to grow and take available space */
 }
+.input-fielddate{
+  color: var(--space-cadet);
+  outline: 2px solid var(--carolina-blue);;
+  outline-offset: 5px;
+  border-radius: 4px;
+  
+  flex-grow: 1; /* Allow the input field to grow and take available space */
+}
 
 .input-field:focus {
   outline-color: var(--carolina-blue);
