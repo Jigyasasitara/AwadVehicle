@@ -8,6 +8,10 @@
 
         // Set the input field's value to today's date
         document.getElementById('input-3').value = today;
+ const today = new Date().toISOString().slice(0, 10);
+
+        // Set the input field's value to today's date
+        document.getElementById('input-3').value = today;
 function watsapp() {
   var name = document.getElementById("input-1").value;
   var phoneno = document.getElementById("input-2").value;
