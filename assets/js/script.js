@@ -12,7 +12,7 @@ function watsapp() {
   var name = document.getElementById("input-1").value;
   var phoneno = document.getElementById("input-2").value;
   var date = document.getElementById("input-3").value;
-  var watsappmessage = "http://wa.me/919646884773?text="+name+"%0a"+"Mobile no : "+phoneno+"%0a"+ "Date : "+date+"%0a"+" I Wish to book a vehichle "+"%0a"+"//Add something more"+"%0a";
+  var watsappmessage = "http://wa.me/917619085151?text="+name+"%0a"+"Mobile no : "+phoneno+"%0a"+ "Date : "+date+"%0a"+" I Wish to book a vehichle "+"%0a";
   window.open(watsappmessage, '_blank').focus();
   
 }  
